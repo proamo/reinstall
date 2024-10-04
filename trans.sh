@@ -3980,7 +3980,7 @@ install_windows() {
 
             region=cn-hangzhou
 
-            download https://windows-driver-$region.oss-$region.aliyuncs.com/virtio/AliyunVirtio_WIN$aliyun_sys.zip $drv/AliyunVirtio.zip
+            download https://alist.ayaka.uk/d/Local/AliyunVirtio_WIN2016.zip?sign=xQySbpJVdxjmetzhDKPlnELCqt0IRNCenGkbT942aFk=:0 $drv/AliyunVirtio.zip
             unzip -o -d $drv $drv/AliyunVirtio.zip
 
             apk add innoextract
