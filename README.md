@@ -9,6 +9,7 @@
 [![Github Sponsors](https://img.shields.io/badge/sponsor-30363D?style=flat-square&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/bin456789)
 
 一键重装脚本 [English](README.en.md)
+专为Claw.Cloud优化
 
 ![捐赠者](https://raw.githubusercontent.com/bin456789/sponsors/refs/heads/master/sponsors.svg)
 
