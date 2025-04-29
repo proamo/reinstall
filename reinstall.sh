@@ -3,8 +3,10 @@
 # shellcheck disable=SC2086
 
 set -eE
-confhome=https://raw.githubusercontent.com/Bryant-Xue/reinstall/main
-confhome_cn=https://raw.githubusercontent.com/Bryant-Xue/reinstall/main
+confhome=https://raw.githubusercontent.com/proamo/reinstall/main
+confhome_cn=https://raw.githubusercontent.com/proamo/reinstall/main
+#confhome=https://raw.githubusercontent.com/Bryant-Xue/reinstall/main
+#confhome_cn=https://raw.githubusercontent.com/Bryant-Xue/reinstall/main
 # confhome_cn=https://mirror.ghproxy.com/https://raw.githubusercontent.com/bin456789/reinstall/main
 
 # 用于判断 reinstall.sh 和 trans.sh 是否兼容
