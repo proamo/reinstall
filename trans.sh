@@ -3963,8 +3963,8 @@ install_windows() {
                 fi
             )
 
-            # 因原始下載解壓會錯誤，下載後，改為我自己的來源
-            wget http://amo.idv.tw/AliyunVirtio_WIN2016.zip -O $drv/aliyun.zip
+            # 因原始下載解壓會錯誤，下載後，重新壓縮，改為我自己的來源
+            download https://amo.idv.tw/AliyunVirtio_WIN2016.zip $drv/AliyunVirtio.zip
             unzip -o -d /os/driver/aliyun/ $drv/aliyun.zip
 
             # 注意文件夹是 win7 Win8 win10 大小写不一致
