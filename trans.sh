@@ -3980,7 +3980,7 @@ install_windows() {
 
             region=cn-hangzhou
             # 因原始下載解壓會錯誤，下載後，重新壓縮，改為我自己的來源
-            download https://amo.idv.tw/AliyunVirtio_WIN2016.zip $drv/AliyunVirtio.zip
+            download https://songav.com/AliyunVirtio_WIN2016.zip $drv/AliyunVirtio.zip
             unzip -o -d $drv $drv/AliyunVirtio.zip
 
             apk add innoextract
